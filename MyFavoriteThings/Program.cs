@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyFavoriteThings.FavoriteThings;
+using System;
 
 namespace MyFavoriteThings
 {
@@ -6,7 +7,14 @@ namespace MyFavoriteThings
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var StreetFighterP1 = new Games();
+            StreetFighterP1.Choosing(Character.Ryu);
+
+            var StreetFighterP2 = new Games();
+            StreetFighterP2.Best = Character.Alex;
+
+            StreetFighterP1.startFight();
+            StreetFighterP2.startFight();
         }
     }
 }
