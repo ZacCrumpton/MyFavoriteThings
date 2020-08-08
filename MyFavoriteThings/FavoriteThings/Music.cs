@@ -22,5 +22,17 @@ namespace MyFavoriteThings.FavoriteThings
             Console.WriteLine($"{title} is instantiated");
             Console.WriteLine($"{length} is instantiated");
         }
+
+        public void Play()
+        {
+            if(Length > 2.5f)
+            {
+                Console.WriteLine($"You're now listening to {Title}, by an unanmed {Genre} band. Strap in, its going to be a long one.");
+            }
+            else
+            {
+                Console.WriteLine($"You're now listening to {Title}. We know this is your favorite kind of music, {Genre}. Its short and sweet!");
+            }
+        }
     }
 }

@@ -23,7 +23,10 @@ namespace MyFavoriteThings
             EuropeanArt.Purchase(false);
 
             var TearDucks = new Music("Indie Rock", "Let Her Go", 3.20f);
+            var OhNoFiasco = new Music("Pop Rock", "Oh Boy", 2.0f);
 
+            TearDucks.Play();
+            OhNoFiasco.Play();
         }
     }
 }
