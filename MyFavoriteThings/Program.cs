@@ -21,6 +21,9 @@ namespace MyFavoriteThings
             
             JapaneseArt.Purchase(true);
             EuropeanArt.Purchase(false);
+
+            var TearDucks = new Music("Indie Rock", "Let Her Go", 3.20f);
+
         }
     }
 }
