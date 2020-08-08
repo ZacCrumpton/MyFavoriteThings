@@ -13,8 +13,14 @@ namespace MyFavoriteThings
             var StreetFighterP2 = new Games();
             StreetFighterP2.Best = Character.Alex;
 
-            StreetFighterP1.startFight();
-            StreetFighterP2.startFight();
+            StreetFighterP1.startFight(true);
+            StreetFighterP2.startFight(false);
+
+            var JapaneseArt = new Art("Japanese", "Asian", 500);
+            var EuropeanArt = new Art("18th Century", "European", 700);
+            
+            JapaneseArt.Purchase(true);
+            EuropeanArt.Purchase(false);
         }
     }
 }

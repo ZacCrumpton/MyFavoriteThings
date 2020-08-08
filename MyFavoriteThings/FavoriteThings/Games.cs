@@ -16,7 +16,7 @@ namespace MyFavoriteThings.FavoriteThings
             Best = best;
         }
 
-        public void startFight()
+        public void startFight(bool isBeginner)
         {
             if (isBeginner)
             {
